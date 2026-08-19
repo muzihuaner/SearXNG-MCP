@@ -1,4 +1,4 @@
-# SearXNG MCP Server (Streamable HTTP)
+# SearXNG MCP Server
 
 一个基于 [FastMCP](https://gofastmcp.com) 实现的 SearXNG 搜索 MCP 服务，使用 **Streamable HTTP** 传输，支持本地运行与 Docker 部署。
 
