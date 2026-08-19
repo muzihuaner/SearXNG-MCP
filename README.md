@@ -2,6 +2,13 @@
 
 一个基于 [FastMCP](https://gofastmcp.com) 实现的 SearXNG 搜索 MCP 服务，使用 **Streamable HTTP** 传输，支持本地运行与 Docker 部署。
 
+> SearXNG相关链接:
+>
+> 官方文档:https://docs.searxng.org/
+>
+> 在线示例:https://searx.space/
+
+
 ## 功能
 
 - 暴露 MCP 工具 `search(query)`：根据关键字调用 SearXNG 实例并返回搜索结果摘要。
@@ -13,7 +20,7 @@
 
 | 变量名        | 默认值               | 说明                                                  |
 | ------------- | -------------------- | ----------------------------------------------------- |
-| `SEARXNG_URL` | `https://searxng.abc.com` | SearXNG 实例根地址（只需填域名，无需路径）          |
+| `SEARXNG_URL` | `https://searxng.abc.com` | SearXNG 实例根地址（要求开启JSON）  |
 | `HOST`        | `0.0.0.0`            | 服务监听地址                                          |
 | `PORT`        | `9000`               | 服务监听端口                                          |
 
