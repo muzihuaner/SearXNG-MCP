@@ -64,6 +64,18 @@ docker run -d \
   searxng-mcp
 ```
 
+使用在线镜像
+
+```bash
+docker run -d \
+  --name searxng-mcp \
+  -p 9000:9000 \
+  -e SEARXNG_URL="https://searxng.abc.com" \
+  muzihuaner/searxng-mcp:latest
+```
+
+
+
 ### 访问地址
 
 部署完成后，MCP 端点格式为：
